@@ -20,13 +20,6 @@ You will need **Python 3.9+** and the following packages:
 ```bash
 pip install pandas biopython semlib nest_asyncio pydantic
 ```
-
-> 💡 *Optional:* You may install in a virtual environment for reproducibility:
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
 ---
 
 ## Environment Variables
@@ -59,7 +52,7 @@ The default model is set to `openai/gpt-4.1-mini`. You can adjust this in the en
 
 ---
 
-## ▶How to Run
+## How to Run
 
 ### **1. MTS-Dialog Extraction**
 This script extracts structured data from the doctor–patient dialogues.
@@ -99,5 +92,3 @@ To reproduce the full pipeline:
 3. Export your API key
 4. Run each script sequentially
 5. Verify the generated CSV files
-
----
